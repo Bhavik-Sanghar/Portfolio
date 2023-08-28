@@ -1,0 +1,71 @@
+/* styles.css */
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+.navbar-nav {
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+  margin: 0;
+}
+
+.nav-dropdown {
+  margin-left: auto;
+}
+
+.nav-dropdown .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown .dropdown-menu {
+  background-color: transparent;
+}
+
+.nav-dropdown .dropdown-item {
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-dropdown .dropdown-item:hover {
+  color: lightgray;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: lightgray;
+}
+
+
+.social{
+  display: flex;
+  gap: ;
+}

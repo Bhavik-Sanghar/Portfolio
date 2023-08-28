@@ -1,0 +1,11 @@
+.projects-container {
+    padding: 40px;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  

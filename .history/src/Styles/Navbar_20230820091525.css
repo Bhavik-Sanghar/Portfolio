@@ -1,0 +1,108 @@
+/* src/Styles/Navbar.css */
+
+/* Reset some default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles for the Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+/* Hamburger menu styles */
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-toggle-label {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+}
+
+.navbar-toggle-label span {
+  background-color: white;
+  display: block;
+  height: 3px;
+  width: 25px;
+  margin: 5px auto;
+  position: relative;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* List styles */
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+/* Social media icon styles */
+.icon-link {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.icon-link:hover {
+  color: #29b6f6;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    transform: translateY(-100%);
+  }
+
+  .navbar-toggle:checked + .nav-list {
+    transform: translateY(0);
+  }
+
+  .navbar-toggle-label span {
+    background-color: white;
+  }
+}

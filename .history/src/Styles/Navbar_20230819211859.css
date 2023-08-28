@@ -1,0 +1,38 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent background */
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0; /* Position at the top */
+    width: 100%;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .navbar:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker background on hover */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem; /* Add padding for better click area */
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  

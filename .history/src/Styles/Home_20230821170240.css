@@ -1,0 +1,155 @@
+/* Center the content */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  @keyframes SlindInRight{
+    from{
+      transform: translateX(100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes SlindInLeft{
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+  }
+  
+  /* Style the content */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    width: 80%; /* Adjust width as needed */
+    animation: SlindInRight 3s ease 0s 1 ;
+
+  }
+  
+  .text-section {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s; /* Add transition for the jiggle effect */
+
+  }
+  
+  .text-section:hover {
+    animation: jiggle 0.5s ease-in-out infinite; /* Apply the jiggle animation on hover */
+  }
+  
+  @keyframes jiggle {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-2px);
+    }
+    50% {
+      transform: translateX(2px);
+    }
+    75% {
+      transform: translateX(-2px);
+    }
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  .typewriter {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  /* Style the image section */
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .circle {
+    /* width: 30vw;
+    height: 50vh; */
+    width: 500px;
+    height: 500px;
+    background-image: url('../Asset/1692593996604.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 80%;
+    transition: transform 2s, box-shadow 0.5s; /* Add transition effect for transform and box-shadow */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); /* Add transparent shadow */
+  }
+  
+  .circle:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5); /* Adjust shadow on hover */
+  }
+
+  .parallax-container {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  
+ 
+
+  
+.home-container {
+   /* background-image: url('../Asset/Hero.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 4rem); /* Adjust height to fit content below Navbar */
+  }
+  
+  .Hero {
+    font-size: 60px; /* Adjust the font size as needed */
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('../Asset/Navbar.png');
+    transition: transform 0.3s; /* Add transition property for smooth scaling */
+  }
+  
+  .Hero:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+  }
+  
+
+
+
+  

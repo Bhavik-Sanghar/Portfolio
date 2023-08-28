@@ -1,0 +1,14 @@
+.projects-container {
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  

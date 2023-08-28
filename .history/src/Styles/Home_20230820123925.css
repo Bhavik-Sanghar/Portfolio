@@ -1,0 +1,32 @@
+/* Center the content */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust to your preference */
+    /* background-image: url('../Asset/HomeBg.jpg'); Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Style the content */
+  .content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .typewriter {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

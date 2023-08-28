@@ -1,0 +1,105 @@
+/* Center the content */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../Asset/HomeBg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Style the content */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .text-section {
+    flex: 1;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  .typewriter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  /* Style the image section */
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 500px;
+    height: 500px;
+    background-image: url('../Asset/20220320_080741.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: transform 0.5s; /* Add transition effect */
+  }
+  
+  /* Animation for the image section */
+  .image-section:hover .circle {
+    transform: scale(1.1);
+  }
+
+  
+.home-container {
+    background-image: url('../Asset/pexels-sohail-nachiti-807598.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 4rem); /* Adjust height to fit content below Navbar */
+  }
+  .Hero {
+    font-size: 80px;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('../Asset/h1.jpg');
+    transition: transform 0.3s; /* Add transition property for smooth scaling */
+  }
+  
+  .Hero:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+  }
+  
+
+
+
+
+
+  

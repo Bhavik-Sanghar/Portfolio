@@ -1,0 +1,61 @@
+/* styles.css */
+.navbar {
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.Nav{
+  display: flex;
+  align-items:center
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+.navbar-nav {
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+  margin: 0;
+}
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.social a:hover {
+  color: lightgray;
+}
+
+
+.social{
+  display: flex;
+  gap: 20px;
+}

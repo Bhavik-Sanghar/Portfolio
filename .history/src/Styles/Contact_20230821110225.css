@@ -1,0 +1,59 @@
+.contact-container {
+    padding: 80px 0;
+    background-image: url(../Asset/Contact.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  .contact-details {
+    margin-bottom: 40px;
+  }
+  
+  .contact-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 40px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    color: #007bff;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-3px);
+    color: #0056b3;
+  }
+  

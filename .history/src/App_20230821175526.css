@@ -1,0 +1,39 @@
+#home{
+    background : url('./Asset/Hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+}
+#project{
+    background : url('./Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+}
+#skills{
+    background : url('./Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+}
+#contact{
+    background : url('./Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+}
+#about{
+    background : url('./Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+}
+
+*{
+    padding: 0;
+}

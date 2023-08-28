@@ -1,0 +1,30 @@
+.projects-container {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../Asset/psychedelic-paper-shapes-with-copy-space.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.project-cards {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Arial", sans-serif; /* Change font family */
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

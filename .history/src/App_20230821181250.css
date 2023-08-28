@@ -1,0 +1,12 @@
+#home ,
+#project,
+#skills,
+#contact,
+#about {
+    background: url('./Asset/—Pngtree—pastel\ background\ with\ 3d\ rendered_10618845.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem;
+    animation: SlindInRight 3s ease 0s 1;
+    background-attachment: fixed; /* Add this line */
+}

@@ -1,0 +1,119 @@
+/* ProjectCard.css */
+.project-card {
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card .card {
+  border: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.project-card:hover .card {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project-card .card-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.project-card .project-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.project-card .card {
+  background: rgba(74, 144, 226, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.image-container {
+  width: 15vw;
+  height: auto;
+  padding-left: 50px;
+  background: transparent;
+  border-radius: 10px; /* Adjust the radius as needed */
+  overflow: hidden; /* Clip the content that goes beyond the rounded corners */
+}
+
+.project-card .project-buttons a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.project-card .project-buttons a:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Additional styling */
+.project-card .card {
+  overflow: hidden;
+}
+
+.project-card .card-img-top {
+  transition: transform 0.3s;
+}
+
+.project-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.project-card .project-buttons a:first-child {
+  background: rgba(0, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.project-card .project-buttons a:first-child:hover {
+  background-color: #218838;
+}
+
+.project-card .project-buttons a:last-child {
+  background: rgba(245, 23, 23, 0.318);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.project-card .project-buttons a:last-child:hover {
+  background-color: #c82333;
+}
+
+.project-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s; /* Adding a transition for smooth effect */
+}
+
+.project-card .card-title:hover {
+  transform: scale(1.1); /* Applying transform on hover */
+}

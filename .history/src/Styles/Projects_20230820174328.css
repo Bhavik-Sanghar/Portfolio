@@ -1,0 +1,21 @@
+.projects-container {
+  padding: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Arial", sans-serif; /* Change font family */
+}

@@ -1,0 +1,12 @@
+#home ,
+#project,
+#skills,
+#contact,
+#about {
+    background: url('./Asset/Contact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem;
+    animation: SlindInRight 3s ease 0s 1;
+    background-attachment: fixed; /* Add this line */
+}

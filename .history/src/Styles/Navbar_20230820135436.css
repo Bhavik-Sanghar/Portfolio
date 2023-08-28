@@ -1,0 +1,142 @@
+/* App.css */
+@keyframes SlindInLeft{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+@keyframes SlindInRight{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the navigation bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px; /* Add some padding to create space around the elements */
+  display: flex;
+  justify-content: space-between; /* Align items at the beginning and end */
+  align-items: center;
+  z-index: 1000;
+  animation: SlindInLeft 3s ease 0s 1  ;
+}
+
+/* Style for the logo */
+.logo  {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  margin-right: 10px; /* Add some spacing between logo and navigation links */
+  animation: SlindInRight 3s ease 0s 1  ;
+}
+
+/* Style for navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Center navigation vertically */
+  animation: SlindInRight 3s ease 0s 1  ;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #00eeff;
+}
+
+/* Style for social media icons */
+.social-media ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  animation: SlindInLeft 3s ease 0s 1  ;
+}
+
+.social-media li {
+  margin-right: 10px; /* Add spacing between social media icons */
+}
+
+.social-media a {
+  color: white;
+  font-size: 20px; /* Adjust size as needed */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #FF5733;
+}
+
+/* Style for the main content */
+.container {
+  margin-top: 70px; /* Adjust margin to prevent overlap */
+  padding: 20px;
+}
+
+[data-scroll] {
+  scroll-behavior: smooth;
+}
+
+/* Style for the individual news sections */
+.news-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styling for specific news sections */
+#AllNews {
+  background-color: #F5F5F5;}
+
+#Trend {
+  background-color: #F7F2E0;
+}
+
+#SportsNews {
+  background-color: #E0F7F7;
+}
+
+#SciNews {
+  background-color: #E0F7E0;
+}
+
+#Entertainment {
+  background-color: #F7E0F7;
+}
+
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0 none;
+}

@@ -1,0 +1,8 @@
+#main{
+    background: url(./Asset/Hero.jpg)
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem; /* Add padding to make space for the fixed Navbar */
+    animation: SlindInRight 3s ease 0s 1 ;
+
+}

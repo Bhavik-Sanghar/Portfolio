@@ -1,0 +1,51 @@
+/* styles.css */
+.Nav {
+  background-color: transparent;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav .navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  order: 0; /* Move the logo to the right */
+}
+
+.Nav .nav-link {
+  color: white;
+  font-size: 16px;
+  margin: 0 20px;
+  transition: color 0.3s;
+}
+
+.Nav .nav-link:hover {
+  color: lightgray;
+}
+
+.Nav .navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow the menu items to expand and center */
+  justify-content: center;
+}
+
+.Nav .social {
+  display: flex;
+  align-items: center;
+  order: 3; /* Move the social icons to the right */
+}
+
+.Nav .social .nav-link {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.Nav .social .nav-link:hover {
+  color: lightgray;
+}

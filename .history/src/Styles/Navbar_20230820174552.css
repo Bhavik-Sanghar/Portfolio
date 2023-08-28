@@ -1,0 +1,98 @@
+
+
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent background */
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s;
+}
+/* Navigation bar */
+.Nav {
+  /* background-image: url('../Asset/Navbar.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 30px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Navbar brand */
+.Nav .navbar-brand {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* Logo */
+#logo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+/* Menu */
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.Nav .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Menu links */
+.Nav .nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 20px;
+  transition: color transform 0.3s;
+}
+
+.Nav .nav-link:hover {
+  color: rgb(0, 83, 200);
+  transform: translate(5px, -5px) scale(1.5);
+  
+}
+
+/* Social icons */
+.Nav .social {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.Nav .social .nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.Nav .social .nav-link:hover {
+  color: rgb(0, 183, 255);
+}

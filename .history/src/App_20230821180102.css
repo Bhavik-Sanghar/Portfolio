@@ -1,0 +1,20 @@
+#home {
+    background: url('./Asset/Hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem;
+    animation: SlindInRight 3s ease 0s 1;
+    background-attachment: fixed; /* Add this line */
+}
+
+#project,
+#skills,
+#contact,
+#about {
+    background: url('./Asset/psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 4rem;
+    animation: SlindInRight 3s ease 0s 1;
+    background-attachment: fixed; /* Add this line */
+}

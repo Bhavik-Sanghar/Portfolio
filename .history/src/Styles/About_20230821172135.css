@@ -1,0 +1,40 @@
+/* Your existing styles for the About component */
+/* Add animation-related styles */
+
+.animated-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animated-item.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.about-container {
+   /* background-image: url('../Asset/about-background.jpg'); /* Replace with your image path */
+   background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+  }
+  
+  .animated-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .animated-item.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .rounded-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  

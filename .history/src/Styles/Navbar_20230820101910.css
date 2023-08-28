@@ -1,0 +1,68 @@
+/* styles.css */
+.Nav {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+.Nav .navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px; /* Push logo to top left */
+ 
+}
+
+#logo{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+#menu{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.Nav .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.Nav .nav-link {
+  color: white;
+  font-size: 16px;
+  margin: 0 20px;
+  transition: color 0.3s;
+}
+
+.Nav .nav-link:hover {
+  color: lightgray;
+}
+
+.Nav .social {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push social icons to top right */
+}
+
+.Nav .social .nav-link {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.Nav .social .nav-link:hover {
+  color: lightgray;
+}
