@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2dbc869.css",
+    "main.js": "/static/js/main.02a6b6ca.js",
+    "static/media/sebastian-svenson-LpbyDENbQQg-unsplash.jpg": "/static/media/sebastian-svenson-LpbyDENbQQg-unsplash.1527c36649f469def344.jpg",
+    "static/media/efe-kurnaz-RnCPiXixooY-unsplash.jpg": "/static/media/efe-kurnaz-RnCPiXixooY-unsplash.01819ae01123133eb409.jpg",
+    "static/media/profile-pic (2).png": "/static/media/profile-pic (2).fb17b5b3ad4e91ee43f2.png",
+    "static/media/profile-pic (4).png": "/static/media/profile-pic (4).33b153e3ca202fef8287.png",
+    "static/media/weather-app.png": "/static/media/weather-app.4099abff5a93ef845738.png",
+    "static/media/bs.png": "/static/media/bs.a077a933c36e37b551ff.png",
+    "static/media/LOGO.png": "/static/media/LOGO.4e61bf6aad69b0db3966.png",
+    "static/media/motivational.png": "/static/media/motivational.eb51aee6798627e22c82.png",
+    "static/media/news.png": "/static/media/news.a0c52def93cdc5dc9dbc.png",
+    "static/media/react.png": "/static/media/react.60887b10c363aca4134c.png",
+    "static/media/html.png": "/static/media/html.ae9efd9285fe7110b564.png",
+    "static/media/rbs.png": "/static/media/rbs.cfb238c01c4f832a56dd.png",
+    "static/media/css.png": "/static/media/css.c7a290386f78566034d6.png",
+    "index.html": "/index.html",
+    "main.b2dbc869.css.map": "/static/css/main.b2dbc869.css.map",
+    "main.02a6b6ca.js.map": "/static/js/main.02a6b6ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2dbc869.css",
+    "static/js/main.02a6b6ca.js"
+  ]
+}
