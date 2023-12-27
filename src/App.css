@@ -4,7 +4,8 @@
 #skills,
 #contact,
 #about {
-    background: url('./Asset/sebastian-svenson-LpbyDENbQQg-unsplash.jpg');
+    background: url('./Asset/14925826_v331batch2-nunny-05b-leafbackground.jpg');
+    backdrop-filter:blur(5px);
     background-size: cover;
     background-position: center;
     padding-top: 4rem;

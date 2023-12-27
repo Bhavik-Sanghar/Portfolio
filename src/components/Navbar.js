@@ -30,6 +30,9 @@ function CustomNavbar() {
             <Nav.Link  href="https://github.com/Bhavik-Sanghar" target="_blank">
               <FaGithub />{" "}
             </Nav.Link>
+            <Nav.Link  href="https://github.com/Bhavik-Sanghar" target="_blank">
+              <FaInstagram />{" "}
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

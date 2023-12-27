@@ -14,7 +14,15 @@
     transform: translateX(0%);
   }
 }
-
+#Time{
+  color : black;
+  font-family: 'Courier New', Courier, monospace;
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  transition: transform 0.5;
+}
+#Time:hover{
+  transform: scale(1.05);
+}
 /* Style the content */
 .content {
   display: flex;
@@ -26,18 +34,34 @@
   animation: SlindInRight 3s ease 0s 1;
 }
 
-.Hero{
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 5px rgba(129, 216, 251, 0.3);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(148, 252, 219, 0.4);
+  }
+}
+
+.Hero {
   font-size: 60px; /* Adjust the font size as needed */
   font-weight: 700;
   font-family: 'Times New Roman', Times, serif;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: url('../Asset/efe-kurnaz-RnCPiXixooY-unsplash.jpg');
+  background-image: url('../Asset/abstract-psychedelic-papercut-background.jpg');
   background-size: cover;
   background-position: center;
   transition: transform 0.3s; /* Add transition property for smooth scaling */
+  
+  /* Add animated glow effect */
+  animation: glowing 5s infinite;
 }
+
 
 .text-section {
   flex: 1;
@@ -51,7 +75,7 @@
 }
 
 .text-section:hover {
-  animation: jiggle 0.5s ease-in-out infinite; /* Apply the jiggle animation on hover */
+  animation: jiggle 2s ease-in-out infinite; /* Apply the jiggle animation on hover */
 }
 
 @keyframes jiggle {
@@ -97,7 +121,7 @@ h2 {
 .circle {
   width: 500px;
   height: 500px;
-  background-image: url('../Asset/4707122-removebg-preview.png'); /* Replace with your image path */
+  background-image: url('../Asset/MOSHED-2023-12-25-9-30-53-fotor-bg-remover-2023122594149.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   border-radius: 80%;
@@ -135,3 +159,25 @@ h2 {
     font-size: 35px;
   }
 }
+
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:  rgba(255, 255, 255, 0.5); /* Change the color to match your theme */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Add some margin to separate the button from the text */
+}
+
+.download-button:hover {
+  background-clip: text;
+  /* background-image: url('../Asset/h1.jpg'); */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+

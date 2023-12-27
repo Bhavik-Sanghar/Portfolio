@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Styles/About.css'; // Your CSS file for styling the About component
-import bhavik from '../Asset/bhavik.jpg'
+import bhavik from '../Asset/profile-pic (2).png'
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);

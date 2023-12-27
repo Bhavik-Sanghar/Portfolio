@@ -4,6 +4,7 @@ import '../Styles/Projects.css'; // Your CSS file for the Projects page
 import news from '../Asset/news.png'
 import wether from '../Asset/weather-app.png'
 import quote from '../Asset/motivational.png'
+import Todo from '../Asset/To-do.jpg'
 
 
 const Project = () => {
@@ -30,6 +31,14 @@ const Project = () => {
       description: 'This app is Quotes app',
       sourceCodeLink: '',
       liveDemoLink: 'https://64df61db1713a7053f7264bc--quotes-bhavik.netlify.app/'
+
+    },
+    {
+      title: 'To-DO List App',
+      image: Todo,
+      description: 'This app is TO-DO list app',
+      sourceCodeLink: '',
+      liveDemoLink: 'https://bhavik-sanghar.github.io/AngularToDo/'
 
     },
     // Add more project objects here

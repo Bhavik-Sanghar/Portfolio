@@ -40,8 +40,8 @@
   
   /* Additional styling for the SkillsCard component */
   .skills-card {
-    width: 300px;
-    height: 300px; /* Set a consistent height for all skill cards */
+    width: 230px;
+    height: 250px; /* Set a consistent height for all skill cards */
   }
   
   .skills-card .card {
