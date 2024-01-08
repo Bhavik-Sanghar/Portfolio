@@ -12,10 +12,12 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
     "magic.css": "^1.4.8",
+    "ora": "^8.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
@@ -23,13 +25,11 @@
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Bhavik-Sanghar.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build" 
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

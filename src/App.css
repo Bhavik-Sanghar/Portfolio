@@ -1,17 +1,20 @@
+
+
 #Nav,
 #home ,
 #project,
 #skills,
 #contact,
 #about {
-    background: url('./Asset/14925826_v331batch2-nunny-05b-leafbackground.jpg');
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     backdrop-filter:blur(5px);
     background-size: cover;
     background-position: center;
     padding-top: 4rem;
-    animation: SlindInRight 3s ease 0s 1;
+    /* animation: SlindInRight 3s ease 0s 1; */
     background-attachment: fixed; /* Add this line */
 }
+
 
 .theme-toggle {
     position: fixed;
@@ -33,4 +36,6 @@
     background-color: #ddd;
     transform: scale(1.1);
   }
+
+  
   
